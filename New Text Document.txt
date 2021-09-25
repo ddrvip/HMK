@@ -1,1 +1,14 @@
-<h1>wadadas</h1>
+git    =command
+git init = ijad makhzan
+git status = neshan dadane taghirat
+git add . = baraye vared kardane taghirat dar stage(ertebat beyne git va file)
+git commit -m = sabt taghirat dar makhzan
+git commit -a -m "message" = git add va commit ba ham
+git rm--cached <file name> = baraye remove kardane file rm--cached -r = remove hameye file ha
+git log = neshan dadane tamame commit haye anjam shode 
+git log -p= neshan dadane joziat
+git log -2= neshan dadane 2 commit akhar
+git checkout -- <file name > bargardandane taghirat ghabl az commit kardan
+git reset head <file name> = baraye unstage kardan bad az commit mibashad
+git remote add origin https://github.com/ddrvip/HMK.git= baraye ezafe kardan addres repository
+git push -u origin master
