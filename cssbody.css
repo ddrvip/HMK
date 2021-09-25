@@ -1,0 +1,143 @@
+
+body {
+  background-image: url('aaa.jpg');
+  margin: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+  }
+input {
+  width: 98%;
+  display: inline-block;
+  border: 1px groove  #669199;
+  background-color: #1e6c7ae8;
+  margin-left: 1px;
+  border-radius: 20px;
+  line-height: 50px;
+  font-size: medium;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #00000069;
+  }
+li  {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+li a:hover {
+  border: 12px solid #87CEFA;
+  background-color: #87CEFA;
+  border-radius: 20px;  
+  
+
+}
+form {
+  margin-top: 200px;
+  margin-right: 30px;
+  background-color: #e8e8f069;
+  width: 50%;
+  float: right;
+  border: 10px solid  #e8e8f069;
+  border-radius: 20px;
+  height: 350px;
+  display: flex;
+  justify-content: start;
+  height: fit-content;
+  flex-direction: column;
+  
+  }
+
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px groove  #669199;
+  border-radius: 20px;
+  background-color: #02bdbd;
+  color: #e7e7e7;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+ 
+
+ ::placeholder {
+  color: #cde2e2;
+  padding-left: 5px;
+}
+
+
+a {
+   color:#fff;
+   text-decoration:none;
+  }
+
+
+button[type=submit]:hover {
+   background-color: #399AFC;
+ }
+
+
+button[type=submit] {
+   background-color: #87CEFA;
+   border: none;
+   color: white;
+   padding: 20px 10px ;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   cursor: pointer;
+   width: 100%;
+   color:#fff; 
+   border-radius: 20px;
+   height: 25%;
+ }
+
+
+label {
+   margin-left: 7px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: large;
+  
+ }
+
+
+div {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   width: 100%;
+   margin-left: 30px;
+   margin-top: 200px;
+   justify-content:center;
+  }
+
+
+h1 {
+  
+   color: #ffffff;
+              
+  }
+ 
+ 
+main  {
+   color: #f7f7f7;
+   width: 50%;
+   font-family: "Trirong", serif;
+   font-size: x-large;
+ } 
+
+
+.button2  {
+ 	 background-color: #008CBA;
+    
+  } 
+
+option:disabled {
+      background: rgb(0, 153, 255);
+}
