@@ -32,7 +32,7 @@
   </div>
   
   
-  <form action="/behkhaan.ir">
+  <form>
       <label for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname" placeholder="Your name"><br>
   
@@ -41,8 +41,8 @@
       <input type="text" id="lname" name="lname" placeholder="Last name"><br>
   
   
-      <label for="email">E-Mail:</label><br>
-      <input type="email" id="email" name="email" placeholder="Your E-Mail"><br>
+      <label for="age">Age:</label><br>
+      <input type="age" id="age" name="age" placeholder="Your age"><br>
   
       <select id="country" name="country">
            <option disabled value="None">None</option>
@@ -50,19 +50,46 @@
            <option value="ca">Canada</option>
            <option value="tr">Turkey</option>
       </select>
-  
-  <button class="button button2" type="submit">Register
+      <script>
+        function myFunction() {
+          document.getElementById("demo").style.fontSize = "25px"; 
+          document.getElementById("demo").style.color = "red";
+          document.getElementById("demo").style.backgroundColor = "yellow";   
+          alert(document.getElementById("fname").value)
+          alert(document.getElementById("lname").value)
+          // alert(document.getElementById("age").value)
+          if(age.value<18){
+            alert('You Are too Young!')
+           }
+           else if(age.value>20){
+            alert('You Are Too Old!')
+          }
+          else if(age.value = 19 , 20)
+            alert('Welcome!')
+        }
+
+        </script>
+  <button class="button button2" id="demo" type="button" onclick="myFunction()">Register
   </button>
+
   
   
   </form> 
+  
+    
+    
 
 
 
 
 
+ <script>
+  "use strict";
 
-
-
+  let name = "Welcome to Ali Hmk HTML CSS Project";
+  
+  alert( `Hello Visitors, ${name}!` ); 
+  
+  </script>
   </body>
 </html>
