@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GoooG</title>
-    <link rel="stylesheet" href="C:\Users\HMK\Desktop\New folder\New-folder\cssbody.css">
-
+    <title>Ali Hemayatkar Project</title>
+    <link rel="stylesheet" href="C:\Users\HMK\Desktop\alihemayatkar-project\New-folder\LoginPage\loginpageCSS.css">
+    <script src="C:\Users\HMK\Desktop\New folder\New-folder\LoginPage\loginpageJS.js"></script>
+  
   
   </head>
 
@@ -34,15 +35,15 @@
   
   <form>
       <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" placeholder="Your name"><br>
+      <input type="text" id="fname"  placeholder="Your name"><br>
   
   
       <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+      <input type="text" id="lname"  placeholder="Last name"><br>
   
   
       <label for="age">Age:</label><br>
-      <input type="age" id="age" name="age" placeholder="Your age"><br>
+      <input type="age" id="age"  placeholder="Your age"><br>
   
       <select id="country" name="country">
            <option disabled value="None">None</option>
@@ -50,26 +51,8 @@
            <option value="ca">Canada</option>
            <option value="tr">Turkey</option>
       </select>
-      <script>
-        function myFunction() {
-          document.getElementById("demo").style.fontSize = "25px"; 
-          document.getElementById("demo").style.color = "red";
-          document.getElementById("demo").style.backgroundColor = "yellow";   
-          alert(document.getElementById("fname").value)
-          alert(document.getElementById("lname").value)
-          // alert(document.getElementById("age").value)
-          if(age.value<18){
-            alert('You Are too Young!')
-           }
-           else if(age.value>20){
-            alert('You Are Too Old!')
-          }
-          else if(age.value = 19 , 20)
-            alert('Welcome!')
-        }
-
-        </script>
-  <button class="button button2" id="demo" type="button" onclick="myFunction()">Register
+      
+  <button class="button button2" id="demo" type="button" onclick="myjs()">Register
   </button>
 
   
