@@ -1,15 +1,34 @@
 function myjs() {
+
+
+    var userObj = {
+        fnameUser: document.getElementById("fname").value,
+        lnameUser: document.getElementById("lname").value,
+        // testfunc: alert("Hello world")
+    }
+
+
+    // userObj.testfunc
+    // alert(userObj.fnameUser);
+    // alert(userObj.lnameUser);
+    // alert("Test is ok ");
+
+
+
     document.getElementById("demo").style.fontSize = "25px";
     document.getElementById("demo").style.color = "white";
     document.getElementById("demo").style.backgroundColor = "Blue"; {
-        alert(document.getElementById("fname").value)
+        // alert(document.getElementById("fname").value)
+
         localStorage.setItem('fname', fname.value)
+    }
 
 
 
-
-    } {
-        alert(document.getElementById("lname").value)
+    {
+        var lname = document.getElementById("lname").value;
+        // alert(document.getElementById("lname").value)
+        alert(lname)
         localStorage.setItem('lname', lname.value)
     }
 
@@ -25,6 +44,11 @@ function myjs() {
 
     }
 
+    var userObj = {
+        lnameUser: lname
+    }
+
+    alert(" User Object = " + userObj.lnameUser);
 }
 
 // document.getElementById("demo").style.fontSize = "25px"; 
